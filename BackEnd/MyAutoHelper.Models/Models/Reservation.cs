@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MyAutoHelper.Database.Models
 {
-    internal class Reservation
+    internal class Reservation: IUniqueEntity
     {
+        public int Id { get; set; }
     }
 }

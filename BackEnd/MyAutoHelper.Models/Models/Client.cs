@@ -2,8 +2,8 @@
 
 namespace MyAutoHelper.Database.Models
 {
-    public class User : IdentityUser
+    public class Client : IUniqueEntity
     {
-
+        public int Id { get; set; }
     }
 }
